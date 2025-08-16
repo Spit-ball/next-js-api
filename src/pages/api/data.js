@@ -7,7 +7,8 @@ const supabase = createClient(
 );
 
 export default async function handler(req, res) {
-    res.setHeader('Access-Control-Allow-Origin', '*'); // or your frontend URL
+    res.setHeader('Access-Control-Allow-Origin', 'https://congenial-adventure-jnwqzp8.pages.github.io');
+    // or your frontend URL
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
